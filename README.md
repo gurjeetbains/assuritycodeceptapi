@@ -25,11 +25,12 @@ npm install
 
 ## Usage
 
-To run the tests. This will start running the test and generate the results on commandline along with generating the allure results in output folder and junit reports in junitreports folder for CI/CD Pipeline  
+To run the tests use the below command. 
 ```bash
 npm run test
 ```
-After the test completes running run the below command to view a HTML report. The report will automatically open in your default browser
+This will start running the test and generate the results on commandline along with generating the allure results in output folder and junit reports in junitreports folder for CI/CD Pipeline. 
+After the test completes running, execute the below command to view a HTML report. The report will automatically open in your default browser.
 ```bash
 npm run createReport
 ```
