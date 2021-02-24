@@ -1,0 +1,29 @@
+{
+  "name": "assuritytest",
+  "version": "1.0.0",
+  "description": "This is the project to test the API given by assurity",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/codeceptjs run",
+    "createReport": "./node_modules/.bin/allure serve output"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurjeetbains/assuritycodeceptapi.git"
+  },
+  "author": "Gurjeet Bains",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gurjeetbains/assuritycodeceptapi/issues"
+  },
+  "homepage": "https://github.com/gurjeetbains/assuritycodeceptapi#readme",
+  "dependencies": {
+    "allure-commandline": "^2.13.8",
+    "axios": "^0.21.1",
+    "codeceptjs": "^3.0.5",
+    "codeceptjs-chai": "^2.2.0",
+    "mocha-junit-reporter": "^2.0.0",
+    "mocha-multi": "^1.1.3"
+  },
+  "devDependencies": {}
+}
